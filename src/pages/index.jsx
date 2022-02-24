@@ -21,6 +21,7 @@ const Page = () => {
 				<Typography
 					variant="h3"
 					fontFamily="Montserrat, cursive"
+					fontSize="20px"
 					color="white"
 					align="center"
 					margin="10px"
@@ -29,7 +30,9 @@ const Page = () => {
 				</Typography>
 				<Typography
 					fontFamily="Montserrat, cursive"
+					fontStyle="italic"
 					fontWeight="900"
+					fontSize="40px"
 					variant="h1"
 					color="white"
 					align="center"
@@ -38,7 +41,11 @@ const Page = () => {
 				</Typography>
 				<Stack direction="column" sx={{ flexGrow: 1, marginTop: 3 }}>
 					<Card variant="outlined" sx={{ padding: 3, boxShadow: "0 3px 8px 2px" }}>
-						<Typography component="h2" variant="h3" color="black">
+						<Typography
+							component="h2" variant="h3" color="black"
+							fontSize="20px"
+							textAlign="center"
+						>
 							Hand aufs Herz: kannst Du im Ernstfall Menschenleben retten?
 							Überprüfe mit diesem Quiz Dein Wissen.
 						</Typography>

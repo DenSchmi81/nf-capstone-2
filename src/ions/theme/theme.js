@@ -1,16 +1,6 @@
 import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
-		palette: {
-		primary: {
-			main: "#049DD9",
-			contrastText: "#FFF",
-		},
-		secondary: {
-			main: "#F2E205",
-			contrastText: "#049DD9",
-		},
-	},
 	typography: {
 		h1: {
 			fontFamily: `"Montserrat", sans-serif`,
@@ -18,11 +8,11 @@ const theme = createTheme({
 			color: "white",
 			fontWeight: "bold",
 			fontStyle: "italic",
-			fontSize: "40px",
-			textAlign: "center",
+
 		},
 		h2: {
 			fontFamily: `"Montserrat", sans-serif`,
+			fontStyle: "italic",
 			color: "white",
 			fontSize: "20px",
 			textAlign: "center",
