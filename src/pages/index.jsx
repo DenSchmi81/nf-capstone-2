@@ -8,6 +8,7 @@ import Image from "next/image";
 import mausLogo from "../../../nf-capstone-2/src/ions/icons/mausLogo.png";
 import Card from "@mui/material/Card";
 
+
 const Page = () => {
 
 	return (
@@ -15,6 +16,7 @@ const Page = () => {
 			<Head>
 				<title key="title">First Aid Hero</title>
 				<meta key="description" name="description" content="First Aid project" />
+				<meta key="description" name="description" content="This is my project" />
 			</Head>
 			<Image src={mausLogo} alt="" />
 			<Stack direction="column" sx={{ flexGrow: 1, margin: 6 }}>
